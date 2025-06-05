@@ -1,0 +1,101 @@
+cliente_id,nombre,email,ciudad,pais
+C001,Cliente 001,cliente001@example.com,Ciudad de Mexico,Mexico
+C002,Cliente 002,cliente002@example.com,Bogota,Colombia
+C003,Cliente 003,cliente003@example.com,Lima,Peru
+C004,Cliente 004,cliente004@example.com,Santiago,Chile
+C005,Cliente 005,cliente005@example.com,Buenos Aires,Argentina
+C006,Cliente 006,cliente006@example.com,Madrid,España
+C007,Cliente 007,cliente007@example.com,Nueva York,EEUU
+C008,Cliente 008,cliente008@example.com,Sao Paulo,Brasil
+C009,Cliente 009,cliente009@example.com,Toronto,Canada
+C010,Cliente 010,cliente010@example.com,Berlin,Alemania
+C011,Cliente 011,cliente011@example.com,Ciudad de Mexico,Mexico
+C012,Cliente 012,cliente012@example.com,Bogota,Colombia
+C013,Cliente 013,cliente013@example.com,Lima,Peru
+C014,Cliente 014,cliente014@example.com,Santiago,Chile
+C015,Cliente 015,cliente015@example.com,Buenos Aires,Argentina
+C016,Cliente 016,cliente016@example.com,Madrid,España
+C017,Cliente 017,cliente017@example.com,Nueva York,EEUU
+C018,Cliente 018,cliente018@example.com,Sao Paulo,Brasil
+C019,Cliente 019,cliente019@example.com,Toronto,Canada
+C020,Cliente 020,cliente020@example.com,Berlin,Alemania
+C021,Cliente 021,cliente021@example.com,Ciudad de Mexico,Mexico
+C022,Cliente 022,cliente022@example.com,Bogota,Colombia
+C023,Cliente 023,cliente023@example.com,Lima,Peru
+C024,Cliente 024,cliente024@example.com,Santiago,Chile
+C025,Cliente 025,cliente025@example.com,Buenos Aires,Argentina
+C026,Cliente 026,cliente026@example.com,Madrid,España
+C027,Cliente 027,cliente027@example.com,Nueva York,EEUU
+C028,Cliente 028,cliente028@example.com,Sao Paulo,Brasil
+C029,Cliente 029,cliente029@example.com,Toronto,Canada
+C030,Cliente 030,cliente030@example.com,Berlin,Alemania
+C031,Cliente 031,cliente031@example.com,Ciudad de Mexico,Mexico
+C032,Cliente 032,cliente032@example.com,Bogota,Colombia
+C033,Cliente 033,cliente033@example.com,Lima,Peru
+C034,Cliente 034,cliente034@example.com,Santiago,Chile
+C035,Cliente 035,cliente035@example.com,Buenos Aires,Argentina
+C036,Cliente 036,cliente036@example.com,Madrid,España
+C037,Cliente 037,cliente037@example.com,Nueva York,EEUU
+C038,Cliente 038,cliente038@example.com,Sao Paulo,Brasil
+C039,Cliente 039,cliente039@example.com,Toronto,Canada
+C040,Cliente 040,cliente040@example.com,Berlin,Alemania
+C041,Cliente 041,cliente041@example.com,Ciudad de Mexico,Mexico
+C042,Cliente 042,cliente042@example.com,Bogota,Colombia
+C043,Cliente 043,cliente043@example.com,Lima,Peru
+C044,Cliente 044,cliente044@example.com,Santiago,Chile
+C045,Cliente 045,cliente045@example.com,Buenos Aires,Argentina
+C046,Cliente 046,cliente046@example.com,Madrid,España
+C047,Cliente 047,cliente047@example.com,Nueva York,EEUU
+C048,Cliente 048,cliente048@example.com,Sao Paulo,Brasil
+C049,Cliente 049,cliente049@example.com,Toronto,Canada
+C050,Cliente 050,cliente050@example.com,Berlin,Alemania
+C051,Cliente 051,cliente051@example.com,Ciudad de Mexico,Mexico
+C052,Cliente 052,cliente052@example.com,Bogota,Colombia
+C053,Cliente 053,cliente053@example.com,Lima,Peru
+C054,Cliente 054,cliente054@example.com,Santiago,Chile
+C055,Cliente 055,cliente055@example.com,Buenos Aires,Argentina
+C056,Cliente 056,cliente056@example.com,Madrid,España
+C057,Cliente 057,cliente057@example.com,Nueva York,EEUU
+C058,Cliente 058,cliente058@example.com,Sao Paulo,Brasil
+C059,Cliente 059,cliente059@example.com,Toronto,Canada
+C060,Cliente 060,cliente060@example.com,Berlin,Alemania
+C061,Cliente 061,cliente061@example.com,Ciudad de Mexico,Mexico
+C062,Cliente 062,cliente062@example.com,Bogota,Colombia
+C063,Cliente 063,cliente063@example.com,Lima,Peru
+C064,Cliente 064,cliente064@example.com,Santiago,Chile
+C065,Cliente 065,cliente065@example.com,Buenos Aires,Argentina
+C066,Cliente 066,cliente066@example.com,Madrid,España
+C067,Cliente 067,cliente067@example.com,Nueva York,EEUU
+C068,Cliente 068,cliente068@example.com,Sao Paulo,Brasil
+C069,Cliente 069,cliente069@example.com,Toronto,Canada
+C070,Cliente 070,cliente070@example.com,Berlin,Alemania
+C071,Cliente 071,cliente071@example.com,Ciudad de Mexico,Mexico
+C072,Cliente 072,cliente072@example.com,Bogota,Colombia
+C073,Cliente 073,cliente073@example.com,Lima,Peru
+C074,Cliente 074,cliente074@example.com,Santiago,Chile
+C075,Cliente 075,cliente075@example.com,Buenos Aires,Argentina
+C076,Cliente 076,cliente076@example.com,Madrid,España
+C077,Cliente 077,cliente077@example.com,Nueva York,EEUU
+C078,Cliente 078,cliente078@example.com,Sao Paulo,Brasil
+C079,Cliente 079,cliente079@example.com,Toronto,Canada
+C080,Cliente 080,cliente080@example.com,Berlin,Alemania
+C081,Cliente 081,cliente081@example.com,Ciudad de Mexico,Mexico
+C082,Cliente 082,cliente082@example.com,Bogota,Colombia
+C083,Cliente 083,cliente083@example.com,Lima,Peru
+C084,Cliente 084,cliente084@example.com,Santiago,Chile
+C085,Cliente 085,cliente085@example.com,Buenos Aires,Argentina
+C086,Cliente 086,cliente086@example.com,Madrid,España
+C087,Cliente 087,cliente087@example.com,Nueva York,EEUU
+C088,Cliente 088,cliente088@example.com,Sao Paulo,Brasil
+C089,Cliente 089,cliente089@example.com,Toronto,Canada
+C090,Cliente 090,cliente090@example.com,Berlin,Alemania
+C091,Cliente 091,cliente091@example.com,Ciudad de Mexico,Mexico
+C092,Cliente 092,cliente092@example.com,Bogota,Colombia
+C093,Cliente 093,cliente093@example.com,Lima,Peru
+C094,Cliente 094,cliente094@example.com,Santiago,Chile
+C095,Cliente 095,cliente095@example.com,Buenos Aires,Argentina
+C096,Cliente 096,cliente096@example.com,Madrid,España
+C097,Cliente 097,cliente097@example.com,Nueva York,EEUU
+C098,Cliente 098,cliente098@example.com,Sao Paulo,Brasil
+C099,Cliente 099,cliente099@example.com,Toronto,Canada
+C100,Cliente 100,cliente100@example.com,Berlin,Alemania
