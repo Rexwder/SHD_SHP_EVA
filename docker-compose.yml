@@ -1,0 +1,51 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: etl_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: qwerty
+      POSTGRES_DB: parcial_1
+    ports:
+      - "5732:5432"  # Puerto externo 5732 para coincidir con tu main.ipynb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    networks:
+      - etl_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  etl_processor:
+    build: .
+    container_name: etl_processor
+    environment:
+      - DB_USER=postgres
+      - DB_PASSWORD=qwerty
+      - DB_HOST=postgres  # Nombre del servicio postgres
+      - DB_PORT=5432     # Puerto interno del contenedor
+      - DB_NAME=parcial_1
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+      - ./logs:/var/log/etl
+      - ./scripts:/app/scripts  # Montar scripts como volumen para desarrollo
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - etl_network
+    restart: unless-stopped
+    # Mantener el contenedor corriendo
+    command: tail -f /dev/null
+
+volumes:
+  postgres_data:
+
+networks:
+  etl_network:
+    driver: bridge

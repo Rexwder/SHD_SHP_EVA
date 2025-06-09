@@ -1,0 +1,1 @@
+*/2 * * * * root cd /app && /app/scripts/run_etl.sh >/var/log/etl/cron.log 2>&1
